@@ -26,60 +26,6 @@ void reverse(listint_t **h_r)
 	*h_r = prv;
 }
 
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@Uceeyjudy
-luischaparroc /
-holbertonschool-higher_level_programming
-Public
-
-Code
-Issues
-Pull requests 1
-Actions
-Projects
-Security
-
-    Insights
-
-holbertonschool-higher_level_programming/0x03-python-data_structures/13-is_palindrome.c
-@luischaparroc
-luischaparroc [Fix]: doesn't use malloc
-Latest commit 8712bb4 Sep 17, 2019
-History
-1 contributor
-114 lines (98 sloc) 1.65 KB
-#include "lists.h"
-
-/**
- * reverse - reverses the second half of the list
- *
- * @h_r: head of the second half
- * Return: no return
- */
-void reverse(listint_t **h_r)
-{
-	listint_t *prv;
-	listint_t *crr;
-	listint_t *nxt;
-
-	prv = NULL;
-	crr = *h_r;
-
-	while (crr != NULL)
-	{
-		nxt = crr->next;
-		crr->next = prv;
-		prv = crr;
-		crr = nxt;
-	}
-
-	*h_r = prv;
-}
-
 /**
  * compare - compares each int of the list
  *
@@ -166,3 +112,4 @@ int is_palindrome(listint_t **head)
 
 	return (isp);
 }
+
