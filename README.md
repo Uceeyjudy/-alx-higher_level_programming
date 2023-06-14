@@ -1,32 +1,42 @@
-# Higher-level programming - Python
-Module of **High-level programming** and **Python**, carried out during **Full Stack Software Engineering studies** at **[Holberton School](https://www.holbertonschool.com/)**.
+# Higher-level programming - Python, Databases & JavaScript
 
-## Technologies
-* Shell Scripts are written in Bash 4.3.11(1)
-* Python Scripts are written with Python 3.4.3
-* `MySQL 5.7` (version 5.7.8-rc)
-* `MySQLdb`, version 1.3.10
-* `sqlalchemy`, version 1.2.5
-* Tested on Ubuntu 14.04 LTS
+This repository contains programs written for the higher-level programming
+track at ALX School. In these projects, which began occurring in month
+four of the year one curriculum, I learned Python, MySQL and JavaScript.
+Simultaneously, I continued to reinforce and expand my skills in C and shell
+scripting. The specific list of projects contained follows:
 
-## Projects
-All of the following folders are projects done during the studies:
+* [0x00. Python - Hello, World](./0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
+* [0x02. Python - import & modules](./0x02-python-import_modules)
+* [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
+* [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
+* [0x05. Python - Exceptions](./0x05-python-exceptions)
+* [0x06. Python - Classes and Objects](./0x06-python-classes)
+* [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+* [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
+* [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+* [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](./0x0B-python-input_output)
+* [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+* [0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+* [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+* [0x10. Python - Network #0](./0x10-python-network_0)
+* [0x11. Python - Network #1](./0x11-python-network_1)
+* [0x12. Javascript - Warm up](./0x12-javascript-warm_up)
+* [0x13. Javascript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
+* [0x14. Javascript - Web scraping](./0x14-javascript-web_scraping)
+* [0x15. Javascript - Web JQuery](./0x15-javascript-web_jquery)
 
-| Project name | Description |
-| ------------ | ----------- |
-| [`0x00-hello_world`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about variables, basics commands (print) and handle strings with **Python** |
-| [`0x01-python-if_else_loops_functions`](https://github.com/luischaparroc/holbertonschool-low_level_programming/tree/master/0x01-variables_if_else_while) | It aims to learn about if/else statements, loops, range and functions in **Python** |
-| [`0x02-python-import_modules`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules) | It aims to learn how to import functions, how to create modules and how to use command line arguments in **Python** |
-| [`0x03-python-data_structures`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures) | It aims to learn about lists, tuples and strings in **Python** |
-| [`0x04-python-more_data_structures`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures) | It aims to learn about sets, dictionaries and functions to handle data structures like lambda, map, reduce and filter in **Python** |
-| [`0x05-python-exceptions`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions) | It aims to learn about exceptions, how to use them, how to use errors and how to raise them in **Python** |
-| [`0x06-python-exceptions`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x06-python-classes) | It aims to learn about object oriented programming (OOP), classes, objects, instances, methods and attributes in **Python** |
-| [`0x07-python-test_driven_development`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development) | It aims to learn about docstrings to create and implement tests in **Python** |
-| [`0x08-python-more_classes`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes) | It aims to learn about object oriented programming (OOP), Data Abstraction, Data Encapsulation, instances and classes attributes in **Python** |
-| [`0x09-python-everything_is_object`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object) | It aims to learn about object oriented programming (OOP), mutability, identity and data types in **Python** |
-| [`0x0A-python-inheritance`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0A-python-inheritance) | It aims to learn about inheritance, superclass, baseclass and subclass in **Python** |
-| [`0x0B-python-input_output`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0B-python-input_output) | It aims to learn how to open, read, write and append files from a script in **Python** |
-| [`0x0C-python-almost_a_circle`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | It aims to learn about unit testing, serialization, deserialization, JSON, `args` and `kwargs` in **Python** |
-| [`0x0D-SQL_introduction`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0D-SQL_introduction) | It aims to learn about databases, relational databases, subqueries, tables, **MySQL** statements and functions |
-| [`0x0E-SQL_more_queries`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0E-SQL_more_queries) | It aims to learn about how to create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION` with **MySQL** |
-| [`0x0F-python-object_relational_mapping`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0F-python-object_relational_mapping) | It aims to learn about how to connect to a MySQL database from a Python script, what ORM means and how to map a Python Class to a MySQL table |
+## Author :black_nib:
+
+* **Judith Uchechukwu Ezenwosu** <[Uceeyjudy](https://github.com/Uceeyjudy)>
+
+## Acknowledgements :pray:
+
+All work contained in this project was completed as part of the curriculum for
+ALX School. ALX School is a online-based full-stack software
+engineering program that prepares students for careers in the tech industry
+using project-based peer learning. For more information, visit
+[this link](https://https://www.alxafrica.com/).
